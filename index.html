@@ -8,8 +8,146 @@
 		<meta name="descripción" content="Página principal de Yu-Gi-Oh! Guayaquil"/>
 		<meta name="autores" content="Alex Ferrín, Julio Larrea"/>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
 	</head>
 	<body>
+	<div class="navbar-wrapper">
+      <div class="container" id="nav-container">
+
+        <nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <p class="navbar-brand hideOnNormal">Barra Navegación</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills nav-justified">
+                <li class="active"><a href="#">Principal</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#torneosytiendas">Torneos y Tiendas</a></li>
+				<li><a href="#evolucion">Evolución del Juego</a></li>
+				<li><a href="#comojugar">Cómo se Juega</a></li>
+				<li><a href="#estadisticas">Estadísticas</a></li>
+				<li><a href="contactenos/contactenos.html">Contáctenos</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+	
+	<div class="container" id="content-container">
+		<div class="row">
+        <div class="col-md-6 content-box col-xs-11">
+			<div class="titulo">
+				<p>Últimos productos</p>
+			</div>
+			<div class="lista-productos">
+			<div class="product-listing" id="producto1">
+				<div class="row">
+					<div class="col-md-3 col-xs-3">
+						<img src="img/COTD-BoosterEN.png" alt="COTD" class="product-image">
+					</div>
+					<div class="col-md-9 col-xs-9">
+						<p class="product-title">Código de Duelista - Paquete de cartas.</p>
+						<br>
+						<p class="product-description"> Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder </p>
+					</div>
+				</div>
+			</div>
+			<div class="product-listing" id="producto2">
+				<div class="row">
+					<div class="col-md-3 col-xs-3">
+						<img src="img/PEVO-BoosterEN.png" alt="PEVO" class="product-image">
+					</div>
+					<div class="col-md-9 col-xs-9">
+						<p class="product-title">Evolución del Péndulo - Paquete de cartas.</p>
+						<br>
+						<p class="product-description"> Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder </p>
+					</div>
+				</div>
+			</div>
+			<div class="product-listing" id="producto3">
+				<div class="row">
+					<div class="col-md-3 col-xs-3">
+						<img src="img/MACR-BoosterEN.png" alt="MACR" class="product-image">
+					</div>
+					<div class="col-md-9 col-xs-9">
+						<p class="product-title">Crisis Máxima - Paquete de cartas.</p>
+						<br>
+						<p class="product-description"> Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder </p>
+					</div>
+				</div>
+			</div>
+			<div class="product-listing" id="producto4">
+				<div class="row">
+					<div class="col-md-3 col-xs-3">
+						<img src="img/RATE-BoosterEN.png" alt="RATE" class="product-image">
+					</div>
+					<div class="col-md-9 col-xs-9">
+						<p class="product-title">Tempestad Furiosa - Paquete de cartas.</p>
+						<br>
+						<p class="product-description"> Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder </p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+        <div class="col-md-6 col-xs-11">
+			<div class="contenedor content-box">
+				<div class="titulo">
+					<p>Cómo jugar</p>
+				</div>
+				<div>
+					<img src="img/pensummon.gif" alt="PendulumGif" class="gif">
+					<img src="img/howtolink.jpg" alt="PendulumGif" class="gif">
+					<p class="product-description"> *Estas imágenes son placeholders y se cambiarán cuando hayan mejores imágenes.
+				</div>
+			</div>
+			<div class="content-box">
+				<div class="titulo">
+					<p>Eventos Recientes</p>
+				</div>
+				<table>
+					<tr>
+						<th class="titulo">Fecha</th>
+						<th class="titulo">Evento</th>
+						<th class="titulo">Lugar</th>
+					</tr>
+					<tr>
+						<td>Jun 23</td>
+						<td>Central American WCQ - Last Chance Qualifiers</td>
+						<td>Expo Reforma CDMX, Mexico</td>
+					</tr>
+					<tr>
+						<td>Jun 30</td>
+						<td>South American WCQ - Last Chance Qualifiers</td>
+						<td>Club Homs - Avenida Paulista Sao Paulo, Brazil</td>
+					</tr>
+					<tr>
+						<td>Jul 7</td>
+						<td>North American WCQ - Last Chance Qualifiers</td>
+						<td>Donald E. Stephens Convention Center Chicago, IL</td>
+					</tr>
+					<tr>
+						<td>Jul 22 - 23</td>
+						<td>Yu-Gi-Oh! Day</td>
+						<td>Latinoamérica</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+      </div>
+	</div>
+	<div class="container content-box follow">
+		<p>Síguenos en: <img src="img/facebook-icon-2-200x200.png" alt="facebookIcon" class="icon-inline" height="32px" width="32px"> 
+		<img src="img/1484210852_twitter_letter.png" alt="twitterIcon" class="icon-inline" height="32px" width="32px">
+		<img src="img/youtube2-128.png" alt="youtubeIcon" class="icon-inline" height="32px" width="32px">
+		</p>
+	</div>
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

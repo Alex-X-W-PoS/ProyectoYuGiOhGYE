@@ -1,0 +1,43 @@
+body {
+	background-size:cover;
+
+}
+
+.content-box {
+	padding: 0;
+	border-bottom: 1px solid white;
+}
+
+.titulo {
+	text-align: left;
+	font-weight: bold;
+	border-bottom: none;
+	margin-bottom: auto;
+	margin-left: 10pt;
+}
+
+.form-filler{
+	padding: 10pt;
+}
+
+.title-container {
+		background-color: #a4a4a4;
+		
+}
+
+label {
+	color: white;
+}
+
+.follow{
+	margin-top: 4%;
+	padding: 10pt;
+}
+
+@media (max-width: 481px) {
+	.content-box {
+
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
