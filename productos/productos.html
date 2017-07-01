@@ -5,16 +5,83 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="descripción" content="Página para ver los productos de Yu-Gi-Oh!"/>
+		<meta name="descripción" content="Página de contacto Yu-Gi-Oh! Guayaquil"/>
 		<meta name="autores" content="Alex Ferrín, Julio Larrea"/>
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/estilo.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
 	</head>
 	<body>
+	<div class="navbar-wrapper">
+      <div class="container" id="nav-container">
+
+        <nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <p class="navbar-brand hideOnNormal">Barra Navegación</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills nav-justified">
+                <li><a href="../index.html">Principal</a></li>
+                <li class="active"><a href="#productos">Productos</a></li>
+                <li><a href="#torneosytiendas">Torneos y Tiendas</a></li>
+				<li><a href="#evolucion">Evolución del Juego</a></li>
+				<li><a href="#comojugar">Cómo se Juega</a></li>
+				<li><a href="#estadisticas">Estadísticas</a></li>
+				<li><a href="../contactenos/contactenos.html">Contáctenos</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+	
+	<div class="container" id="content-container">
+		<div class="row">
+			<div class="col-md-2 content-box title-container">
+				<div class="titulo">
+					<p>Productos:</p>
+				</div>
+			</div>
+			<div class="col-md-12 content-box">
+				<div class="row">
+					<div class="col-md-4 button-column">
+						<button type="button" class="btn btn-primary btn-block" id="sobre-expansion">Sobres de Expansión</button>
+						<button type="button" class="btn btn-primary btn-block" id="latas">Latas</button>
+					</div>
+					<div class="col-md-4 button-column">
+						<button type="button" class="btn btn-primary btn-block" id="caja-ed-especial">Cajas Edición Especial</button>
+						<button type="button" class="btn btn-primary btn-block" id="sobre-duelista">Sobres de Duelista</button>
+					</div>
+					<div class="col-md-4 button-column">
+						<button type="button" class="btn btn-primary btn-block" id="barajas-principiante">Barajas de Principiante</button>
+						<button type="button" class="btn btn-primary btn-block" id="barajas-estructura">Barajas de Estructura</button>
+					</div>
+				</div>
+			</div>
+      </div>
+	</div>
+	
+	<div class="container" id="listado-seccion-productos">
+		<!-- Esta sección se llenará cuando se haga click en algun boton de producto -->
+	</div>
+	
+	<div class="container content-box follow">
+		<p>Síguenos en: <img src="../img/facebook-icon-2-200x200.png" alt="facebookIcon" class="icon-inline" height="32" width="32"> 
+		<img src="../img/1484210852_twitter_letter.png" alt="twitterIcon" class="icon-inline" height="32" width="32">
+		<img src="../img/youtube2-128.png" alt="youtubeIcon" class="icon-inline" height="32" width="32">
+		</p>
+	</div>
 	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
+	<script src="js/consultaProducto.js"></script>
 	</body>
 </html>

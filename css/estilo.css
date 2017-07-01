@@ -127,7 +127,7 @@ img.icon-inline {
 	}
 
 @media (max-width: 768px) {
-	.hideOnNormal {
+	.hideOnNormal:not(span) {
 		display: inline-block;
 		font-family: 'ygo';
 		font-size: 1.5em;	
