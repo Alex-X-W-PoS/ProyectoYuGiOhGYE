@@ -85,3 +85,8 @@ img.product-image {
 	  }
 }
 	
+@media (min-width: 768px) {
+	#listado-seccion-productos {
+		width: 80%;
+	}
+}

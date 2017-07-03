@@ -18,6 +18,8 @@ body {
 
 .form-filler{
 	padding: 10pt;
+	background-color: #3b3b3b;
+	width: 60%;
 }
 
 .title-container {
@@ -40,4 +42,9 @@ label {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
+	
+	.form-filler{
+
+	width: initial;
+}
 }

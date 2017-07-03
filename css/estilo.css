@@ -20,6 +20,10 @@ body {
 
 }
 
+a {
+	color: #b9b9b9;
+}
+
 #nav-container {
 	margin-top: 14%;
 }
@@ -31,6 +35,11 @@ body {
 #content-container {
 	margin-top: 7%;
 	margin-bottom: 4%;
+}
+
+.ygo {
+	size: 1.2em;
+	text-align: center;
 }
 
 .content-box {
