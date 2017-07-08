@@ -72,7 +72,12 @@ function alertContents() {
 				boton.setAttribute("type","button");
 				boton.setAttribute("class","btn btn-primary btn-block bouton-image monBouton");
 				boton.innerHTML="<span>Lista de Cartas</span>";
-				boton.onclick = function () { location.replace("http://127.0.0.1:8887/galeriaCartas/galeriaCartas.html");};//esto debo cambiarlo luego :V
+				if (i==0) {
+					boton.onclick = function () { alert("Este sobre no ha salido en el país aún.\nLo actualizaremos cuando llegue.");};//esto debo cambiarlo luego :V
+				}
+				else {
+					boton.onclick = function () { location.replace("http://127.0.0.1:8887/galeriaCartas/galeriaCartas" + i + ".html");};//esto debo cambiarlo luego :V
+				}
 				div5.appendChild(boton);
 				div2.appendChild(div3);
 				div2.appendChild(div4);
@@ -81,7 +86,7 @@ function alertContents() {
 				cajon_contenido.appendChild(div);
 			}
         } else {
-            alert('Hubo problemas con la petición.');
+            alert('No existe implementación para este producto aún.\nEsto se corregirá en futuras versiones.');
 			
         }
     }
