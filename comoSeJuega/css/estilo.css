@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ygo;
+    src: url("../../fonts/Yu-Gi-Oh! Matrix Regular Small Caps 1.ttf");
+}
+
+body {
+	background-size:cover;
+
+}
+
+
+h1,h2 {
+	text-align: center;
+	color: white;
+}
+
+h2 a {
+	color: white;
+}
+
+.resized-container {
+	position: relative;
+	width: 80%;
+  height: 0;
+  overflow: hidden;
+   padding-bottom: 50%;
+}
+
+/* 16x9 Aspect Ratio */
+.resized-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.resized-container-4x3 {
+ 
+}
+ 
+.resized-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 993px){
+	body {
+	background-size:contain;
+}
+
+	h1, h2 {
+		font-size: 1.4em;
+	}
+}
