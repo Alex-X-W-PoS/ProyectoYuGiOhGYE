@@ -4,8 +4,6 @@ var height = 500;
 
 var widthScale = d3.scale.linear().domain([0,90]).range([0,width]);
 
-console.log("hola");
-
 var color = d3.scale.linear().domain([0,90]).range(["red","blue"]);
 
 var axis = d3.svg.axis().scale(widthScale)
