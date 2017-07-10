@@ -48,7 +48,7 @@ a {
 }
 
 .titulo {
-	background-color: #a4a4a4;
+	background-color: black;
 	text-align: center;
 	font-weight: bold;
 	color: white;
@@ -61,8 +61,25 @@ img.product-image {
 	margin-left: 10px;
 }
 
+.image{
+	width: 100%;
+	margin-left: 50px;
+}
+
 .product-title {
 	color: #75dae9;
+}
+
+.descripcion{
+	color: #75dae9;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 170px;
+}
+
+.descripcion-detalle{
+	margin-right: 170px;
+	
 }
 
 .product-description {
@@ -148,3 +165,4 @@ img.icon-inline {
 		font-size: 1.5em;	
 	}
 }
+
