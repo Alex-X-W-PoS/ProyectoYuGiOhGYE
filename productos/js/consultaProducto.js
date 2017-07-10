@@ -76,7 +76,7 @@ function alertContents() {
 					boton.onclick = function () { alert("Este sobre no ha salido en el país aún.\nLo actualizaremos cuando llegue.");};//esto debo cambiarlo luego :V
 				}
 				else {
-					boton.onclick = function () { location.replace("http://127.0.0.1:8887/galeriaCartas/galeriaCartas" + i + ".html");};//esto debo cambiarlo luego :V
+					boton.onclick = function () { location.replace("https://alex-x-w-pos.github.io/ProyectoYuGiOhGYE/galeriaCartas/galeriaCartas" + i + ".html");};//esto debo cambiarlo luego :V
 				}
 				div5.appendChild(boton);
 				div2.appendChild(div3);

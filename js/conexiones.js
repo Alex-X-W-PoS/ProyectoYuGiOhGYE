@@ -11,7 +11,7 @@ window.onload = function() {
 		}
 		else{
 			links[i].onclick = function() {
-			location.replace("http://127.0.0.1:8887/galeriaCartas/galeriaCartas" + i + ".html");
+			location.replace("https://alex-x-w-pos.github.io/ProyectoYuGiOhGYE/galeriaCartas/galeriaCartas" + i + ".html");
 		};
 		}
 		
@@ -27,7 +27,7 @@ window.onload = function() {
 		}
 		else{
 			links2[i].onclick = function() {
-			location.replace("http://127.0.0.1:8887/galeriaCartas/galeriaCartas" + i + ".html");
+			location.replace("https://alex-x-w-pos.github.io/ProyectoYuGiOhGYE/galeriaCartas/galeriaCartas" + i + ".html");
 		};
 		}
 		
