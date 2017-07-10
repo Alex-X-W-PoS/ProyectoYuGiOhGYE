@@ -20,6 +20,14 @@ body {
 
 }
 
+.eventos{
+	margin: 0 auto;
+}
+
+.torneo{
+	margin-top: 50px;
+}
+
 a {
 	color: #b9b9b9;
 }
@@ -62,8 +70,8 @@ img.product-image {
 }
 
 .image{
-	width: 100%;
-	margin-left: 50px;
+	width: 200%;
+	margin-left: 5px;
 }
 
 .product-title {
@@ -79,7 +87,18 @@ img.product-image {
 
 .descripcion-detalle{
 	margin-right: 170px;
-	
+
+}
+
+.tienda{
+	color: #75dae9;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 70px;
+}
+
+.tienda-dir{
+	margin-left: 100px;
 }
 
 .product-description {
@@ -93,6 +112,10 @@ img.product-image {
 
 img.gif {
 	width: 100%;
+}
+
+.mapa{
+	margin-left: 70px;
 }
 
 ul li a {
