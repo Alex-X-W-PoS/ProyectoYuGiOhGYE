@@ -8,9 +8,69 @@
 		<meta name="descripción" content="Página para ver la linea temporal de Yu-Gi-Oh!"/>
 		<meta name="autores" content="Alex Ferrín, Julio Larrea"/>
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/estilo.css" rel="stylesheet">
+		<link href="./css/estilo.css" rel="stylesheet">
 	</head>
 	<body>
 	
+	<div class="navbar-wrapper">
+      <div class="container" id="nav-container">
+
+        <nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <p class="navbar-brand hideOnNormal">Barra Navegación</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills nav-justified">
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../productos/productos.html">Productos</a></li>
+                <li><a href="../torneosYtiendas/torneosYtiendas.html">Torneos y Tiendas</a></li>
+				<li class="active"><a href="#evolucion">Evolución del Juego</a></li>
+				<li><a href="../comoSeJuega/comoSeJuega.html">Cómo se Juega</a></li>
+				<li><a href="../estadisticas/estadisticas.html">Estadísticas</a></li>
+				<li><a href="../contactenos/contactenos.html">Contáctenos</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+	
+	<div class="container content-box" id="content-container">
+		<ul id="timeline">
+		<li>
+			<time>1999</time> Creación del juego Yu-Gi-Oh! Juego de Cartas Coleccionables.
+		</li>
+		<li>
+			<time class="three-jump">2002</time> Aparición de los monstruos de fusión al juego.
+		</li>
+		<li>
+			<time class="six-jump">2008</time> Aparición de los monstruos de sincronía al juego.
+		</li>
+		<li>
+			<time class="three-jump">2011</time> Aparición de los monstruos Xyz al juego.
+		</li>
+		<li>
+			<time class="three-jump">2014</time> Aparición de los monstruos Péndulo al juego. Cambio en el tablero de juego.
+		</li>
+		<li>
+			<time class="three-jump">2017</time> Aparición de los monstruos Link al juego. Cambio en el tablero de juego.
+		</li>
+		</ul>
+	</div>
+	
+	<div class="container content-box follow">
+		<p>Síguenos en: <img src="../img/facebook-icon-2-200x200.png" alt="facebookIcon" class="icon-inline" height="32" width="32"> 
+		<img src="../img/1484210852_twitter_letter.png" alt="twitterIcon" class="icon-inline" height="32" width="32">
+		<img src="../img/youtube2-128.png" alt="youtubeIcon" class="icon-inline" height="32" width="32">
+		</p>
+		<p>*Los íconos no están habilitados.</p>
+	</div>
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
