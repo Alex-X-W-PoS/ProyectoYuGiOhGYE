@@ -1,0 +1,10 @@
+@media (min-width: 768px){
+	.nav-justified>li {
+        width: 0%;
+    }
+
+    ul li a {
+     
+       font-size: 1.45em;
+    }
+}
