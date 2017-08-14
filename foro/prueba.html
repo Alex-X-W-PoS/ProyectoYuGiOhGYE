@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu-Gi-Oh! Guayaquil</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="descripción" content="Página de contacto Yu-Gi-Oh! Guayaquil"/>
+		<meta name="autores" content="Alex Ferrín, Julio Larrea"/>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/estilo.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
+		<link href="../css/modificaciones_boostrap.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="navbar-wrapper">
+      <div class="container" id="nav-container">
+
+        <nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <p class="navbar-brand hideOnNormal">Barra Navegación</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills nav-justified">
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../productos/productos.html">Productos</a></li>
+                <li><a href="../torneosYtiendas/torneosYtiendas.html">Torneos y Tiendas</a></li>
+				<li><a href="../timeline/timeline.html">Evolución del Juego</a></li>
+				<li><a href="../comoSeJuega/comoSeJuega.html">Cómo se Juega</a></li>
+				<li><a href="">Foros</a></li>
+				<li><a href="../estadisticas/estadisticas.html">Estadísticas</a></li>
+				<li class="active"><a href="#contactenos">Contáctenos</a></li>
+				<li><a href="">Registrar</a></li>
+				<li><a href="">Iniciar sesion</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+	
+	<div class="container" id="content-container">
+		<div class="row">
+			<div class="col-md-2 content-box title-container">
+				<div class="titulo">
+					<p>Contáctenos:</p>
+				</div>
+			</div>
+			<div class="col-md-12 content-box title-container">
+				<div class="titulo">
+					<p>Sus sugerencias son "importantes" para nosotros, si quiere comunicarse con nosotros, por favor llene el siguiente formulario.</p>
+				</div>
+			</div>
+      </div>
+	</div>
+	<div class="container content-box form-filler">
+  <form class="form-horizontal" name="contacto" id="contact" method="get">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Nombre:</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="name" name="name" required="required">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-4">          
+        <input type="email" class="form-control" id="email" placeholder="Ingrese e-mail" name="email" required="required">
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="motive">Motivo:</label>
+      <div class="col-sm-4">          
+        <select class="form-control" name="motivos" id="motive">
+			<option value="volvo">Queja</option>
+			<option value="saab">Sugerencia</option>
+			<option value="fiat">Pregunta de Productos</option>
+			<option value="audi">Otros</option>
+		</select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="descripcion">Descripción:</label>
+      <div class="col-sm-8">          
+        <textarea class="form-control" rows="5" id="descripcion" maxlength="400"></textarea>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </div>
+    </div>
+  </form>
+	</div>
+	
+	<div class="container content-box follow">
+		<p>Síguenos en: <img src="../img/facebook-icon-2-200x200.png" alt="facebookIcon" class="icon-inline" height="32" width="32"> 
+		<img src="../img/1484210852_twitter_letter.png" alt="twitterIcon" class="icon-inline" height="32" width="32">
+		<img src="../img/youtube2-128.png" alt="youtubeIcon" class="icon-inline" height="32" width="32">
+		</p>
+		<p>*Los íconos no están habilitados.</p>
+	</div>
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	</body>
+</html>
