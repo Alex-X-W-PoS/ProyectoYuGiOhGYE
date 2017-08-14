@@ -16,10 +16,13 @@ body {
     background-position: top;
 	background-color: black;
     background-repeat: no-repeat;
-	background-size:contain;
+	background-size:cover;
 
 }
-
+.btn-group, .btn-group-vertical {
+    left: 80%;
+    top: 25px;
+}
 .eventos{
 	margin: 0 auto;
 }
