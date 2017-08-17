@@ -1,0 +1,19 @@
+
+	.contenedor {
+        width: 100%;
+    }
+.text-center {
+    text-align: left;
+}
+
+.botones{
+	left: 0%;
+    top: 0px;
+}
+
+td h4 b{
+	color: black;
+}
+td p{
+	color: black;
+}

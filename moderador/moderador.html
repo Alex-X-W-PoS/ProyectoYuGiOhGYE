@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yu-Gi-Oh! Guayaquil</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="descripción" content="Página de contacto Yu-Gi-Oh! Guayaquil"/>
+		<meta name="autores" content="Alex Ferrín, Julio Larrea"/>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/estilo.css" rel="stylesheet">
+		<link href="../css/modificaciones_boostrap.css" rel="stylesheet">
+		<link href="css/estilo_moderador.css" rel="stylesheet">
+        
+	</head>
+	<body>
+	<div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mi cuenta<span class="caret"></span></button> 
+      <ul class="dropdown-menu"> 
+        <li><a href="#">Registrar</a></li>
+          <li><a href="#">Iniciar Sesion</a></li> 
+      </ul> 
+    </div>
+	<div class="navbar-wrapper">
+      <div class="container" id="nav-container">
+
+        <nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+			  <p class="navbar-brand hideOnNormal">Barra Navegación</p>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-pills nav-justified">
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="../foro/foro.html">Foros</a></li>
+                <li><a href="../productos/productos.html">Productos</a></li>
+                <li><a href="../torneosYtiendas/torneosYtiendas.html">Torneos y Tiendas</a></li>
+				<li><a href="../timeline/timeline.html">Evolución del Juego</a></li>
+				<li><a href="../comoSeJuega/comoSeJuega.html">Cómo se Juega</a></li>
+				<li><a href="../estadisticas/estadisticas.html">Estadísticas</a></li>
+				<li><a href="../contactenos/contactenos.html">Contáctenos</a></li>
+                <li class="active"><a href="#">Mi perfil</a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+	
+	 <div class="container" id="content-container">
+		<div class="row profile">
+        <div class="col-md-3">
+            <div class="profile-sidebar">
+                <!-- SIDEBAR USERPIC -->
+                <div class="profile-userpic">
+                    <img src="img/Yugi-TFSP.png" class="img-responsive" alt="">
+                </div>
+                <!-- END SIDEBAR USERPIC -->
+                <!-- SIDEBAR USER TITLE -->
+                <div class="profile-usertitle">
+                    <div class="profile-usertitle-name">
+                        Marcus Doe
+                    </div>
+                    <div class="profile-usertitle-job">
+                        Moderador
+                    </div>
+                </div>
+                <!-- END SIDEBAR USER TITLE -->
+                <!-- SIDEBAR BUTTONS -->
+                <div class="profile-userbuttons">
+                    <button type="button" class="btn btn-success btn-sm">Follow</button>
+                    <button type="button" class="btn btn-danger btn-sm">Message</button>
+                </div>
+                <!-- END SIDEBAR BUTTONS -->
+                <!-- SIDEBAR MENU -->
+                <div class="profile-usermenu">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="#">
+                            Perfil </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            Crear Torneos </a>
+                        </li>
+                        <li>
+                            <a href="moderador_listaJugador.html" >
+                            Lista de Jugadores </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- END MENU -->
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="profile-content">
+               <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Perfil</legend>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Foto Perfil</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Nombre</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="name" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Apellido</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="father name" class="form-control input-md">
+    
+  </div>
+</div>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Genero</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+    </select>
+  </div>
+</div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Fecha de nacimiento</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="date" placeholder="birthday" class="form-control input-md">
+    
+  </div>
+</div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">education grade</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="education grade" class="form-control input-md">
+    
+  </div>
+</div>
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Correo</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="contact email address" class="form-control input-md">
+    
+  </div>
+</div>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Guardar</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+ 
+	
+	
+	<div class="container content-box follow">
+		<p>Síguenos en: <img src="../img/facebook-icon-2-200x200.png" alt="facebookIcon" class="icon-inline" height="32" width="32"> 
+		<img src="../img/1484210852_twitter_letter.png" alt="twitterIcon" class="icon-inline" height="32" width="32">
+		<img src="../img/youtube2-128.png" alt="youtubeIcon" class="icon-inline" height="32" width="32">
+		</p>
+		<p>*Los íconos no están habilitados.</p>
+	</div>
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	</body>
+</html>
